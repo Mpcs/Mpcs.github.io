@@ -1,13 +1,13 @@
 var names_pl;
 var names_en;
 
-fetch('./translation_names_en.json')
+fetch('./translation_names_EN.json')
   .then(response => response.json())
   .then(data => names_en = data)
   .then()
   .catch(error => console.log(error));
 
-fetch('./translation_names_pl.json')
+fetch('./translation_names_PL.json')
   .then(response => response.json())
   .then(data => names_pl = data)
   .then()
