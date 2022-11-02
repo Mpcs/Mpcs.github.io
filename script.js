@@ -40,7 +40,7 @@ function search_input() {
         total_matched_keys[category] = (Object.keys(converted_entries_en).slice().concat(Object.keys(converted_entries_pl))).filter(onlyUnique);
     })
 
-    console.log(total_matched_keys)
+    //console.log(total_matched_keys)
 
     out_element.innerHTML = '';
 
